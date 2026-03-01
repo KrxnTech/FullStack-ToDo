@@ -1,12 +1,12 @@
 # Full Stack Task Manager (To-Do Application)
 
-A Full Stack Task Manager application built to understand frontend–backend communication, REST API design, and database integration.
+A full stack task manager built to understand frontend–backend communication, REST API design, and database integration.
 
 This project demonstrates complete CRUD operations using React, Node.js, Express, and SQL.
 
 ## Overview
 
-<img width="918" height="588" alt="image" src="https://github.com/user-attachments/assets/9148171e-627a-4b04-9378-1214e56022b0" />
+<img width="755" height="486" alt="image" src="https://github.com/user-attachments/assets/97be486e-0758-477b-9c6d-7aa5bbc765e7" />
 
 This application allows users to:
 
@@ -17,26 +17,22 @@ This application allows users to:
 
 It follows a standard REST architecture where the frontend communicates with the backend via HTTP requests, and the backend interacts with a relational SQL database.
 
----
-
 ## Tech Stack
 
-**Frontend**
+### Frontend
 
 * React
 * Vite
 * CSS
 
-**Backend**
+### Backend
 
 * Node.js
 * Express.js
 
-**Database**
+### Database
 
 * SQL (Relational Database)
-
----
 
 ## Project Structure
 
@@ -53,17 +49,14 @@ FullStack-ToDo/
 │   │   ├── App.jsx
 │   │   ├── App.css
 │   │   ├── main.jsx
-│   │
 │   ├── package.json
 │
 └── README.md
 ```
 
----
-
 ## Application Architecture
 
-The application follows a standard client–server model:
+The application follows a client–server model:
 
 1. The React frontend sends HTTP requests.
 2. Express handles routing and business logic.
@@ -88,79 +81,47 @@ JSON Response
 UI Update
 ```
 
----
-
 ## Installation and Setup
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/FullStack-ToDo.git
 cd FullStack-ToDo
 ```
 
----
-
 ## Backend Setup
-
-Navigate to backend directory:
 
 ```bash
 cd task-manager-backend
-```
-
-Install dependencies:
-
-```bash
 npm install
+node server.js
 ```
 
-Set up the database:
+Before running the server:
 
 * Create a new database in your SQL environment.
 * Execute the `Schema.sql` file to create required tables.
 
-Start the backend server:
-
-```bash
-node server.js
-```
-
-The backend will run on:
+Backend runs on:
 
 ```
 http://localhost:5000
 ```
 
----
-
 ## Frontend Setup
-
-Navigate to frontend directory:
 
 ```bash
 cd task-manager-frontend
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Start development server:
-
-```bash
 npm run dev
 ```
 
-The frontend will run on:
+Frontend runs on:
 
 ```
 http://localhost:5173
 ```
-
----
 
 ## API Endpoints
 
@@ -171,8 +132,6 @@ http://localhost:5173
 | PUT    | /tasks/:id | Update a task      |
 | DELETE | /tasks/:id | Delete a task      |
 
----
-
 ## Key Learnings
 
 * Building and consuming REST APIs
@@ -181,18 +140,14 @@ http://localhost:5173
 * Implementing CRUD operations
 * Managing state and API integration in React
 
----
-
 ## Future Improvements
 
 * Authentication and authorization
 * Environment variable configuration
 * Deployment setup
 * Improved UI/UX
-* Filtering and sorting functionality
-* Error handling and validation improvements
-
----
+* Filtering and sorting
+* Better error handling and validation
 
 ## Author
 
