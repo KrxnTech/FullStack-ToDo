@@ -4,8 +4,6 @@ A Full Stack Task Manager application built to understand frontend–backend com
 
 This project demonstrates complete CRUD operations using React, Node.js, Express, and SQL.
 
----
-
 ## Overview
 
 This application allows users to:
