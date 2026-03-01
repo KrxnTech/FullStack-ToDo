@@ -6,6 +6,8 @@ This project demonstrates complete CRUD operations using React, Node.js, Express
 
 ## Overview
 
+<img width="918" height="588" alt="image" src="https://github.com/user-attachments/assets/9148171e-627a-4b04-9378-1214e56022b0" />
+
 This application allows users to:
 
 * Create tasks
